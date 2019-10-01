@@ -3,4 +3,4 @@ if sal <= 1250:
     novo = (sal * 0.15) + sal
 else:
     novo = (sal * 0.10) + sal
-print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(sal, novo))
+print('Quem ganhava \033[33mR${:.2f}\033[m passa a ganhar \033[31mR${:.2f}\033[m agora.'.format(sal, novo))
